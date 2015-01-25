@@ -3,10 +3,21 @@
 
 <head>
   <link type="text/css" rel="stylesheet" href="css/main.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+  <script src="js/backgrounds.js"></script>
 </head>
 
 <body>
-  <div class="main dungeon">
+  <div class="dungeon" id="main">
+    <div class="buttons-panel">
+      <!-- The #main element will take on the class defined in the location attribute -->
+      <div class="bgButton" location="forest">Forest</div>
+      <div class="bgButton" location="dungeon">Dungeon</div>
+      <div class="bgButton" location="mine">Mine</div>
+      <div class="bgButton" location="village">Village</div>
+      <div class="bgButton" location="town">Town</div>
+      <div class="bgButton" location="mountain">Mountain</div>
+    </div>
     <div class="cutout"></div>
   </div>
 </body>

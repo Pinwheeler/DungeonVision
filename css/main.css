@@ -3,7 +3,7 @@ body {
   padding 0;
 }
 
-.main {
+#main {
   width: 100%;
   height: 100%;
   background: no-repeat center center fixed;
@@ -13,8 +13,23 @@ body {
   background-size: cover;
 }
 
-.dungeon {
+#main.dungeon {
   background-image: url(../img/dungeon.jpg);
+}
+#main.forest {
+  background-image: url(../img/forest.jpg);
+}
+#main.mine {
+  background-image: url(../img/mine.jpg);
+}
+#main.village {
+  background-image: url(../img/village.jpg);
+}
+#main.town {
+  background-image: url(../img/town.jpg);
+}
+#main.mountain {
+  background-image: url(../img/mountain.jpg);
 }
 
 .cutout {
@@ -26,4 +41,25 @@ body {
   background: black;
   border-top-left-radius: 50%;
   border-top-right-radius: 50%;
+}
+
+.buttons-panel {
+  background: white;
+  margin: auto;
+}
+
+.bgButton {
+  background: #4880B9;
+  border-radius: 25px;
+  text-align: center;
+  padding : 10px 20px;
+  margin: 10px;
+  display: inline-block;
+  max-width: 100px;
+
+}
+
+.bgButton:hover {
+  cursor: pointer;
+  background: #5890C9;
 }
